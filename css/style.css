@@ -72,7 +72,7 @@ hr {
 
 .bg-img {
     background-attachment: fixed;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.829)),
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.425), rgba(0, 0, 0, 0.829)),
         url("header-image.png");
     height: 622px;
 
@@ -120,6 +120,10 @@ select {
 
 .api-image {
     border-radius: 50px;
+}
+
+.logo-screen-smal {
+    display: none;
 }
 
 
@@ -233,4 +237,28 @@ select {
     }
 
 
+}
+
+@media (min-width: 300px) and (max-width:420px) {
+    .logo-screen-smal {
+        display: inline;
+        width: 50px;
+        margin: 10px;
+        box-shadow:
+            1px 1px 0 #1a1919,
+            2px 2px 0 #1a1919,
+            3px 3px 0 #1a1919,
+            4px 4px 0 #1a1919,
+            5px 5px 0 #1a1919,
+            6px 6px 0 #1a1919,
+            7px 7px 0 #1a1919,
+            8px 8px 8px rgba(0, 0, 0, 0.6);
+        cursor: pointer;
+
+    }
+
+    .logo {
+        display: none;
+
+    }
 }
