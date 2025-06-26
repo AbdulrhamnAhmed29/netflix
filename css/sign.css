@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+form {
+
+    margin: 80px auto;
+    background-color: rgba(0, 0, 0, 0.63);
+    text-align: center;
+    border-radius: 20px;
+    box-shadow:
+        1px 1px 0 #000000,
+        2px 2px 0 #000000,
+        3px 3px 0 #000000,
+        4px 4px 0 #000000,
+        5px 5px 0 #000000,
+        6px 6px 0 #000000,
+        7px 7px 0 #333,
+        8px 8px 8px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    transition: all 0.7 ease-in;
+    border: 3px #423333 solid;
+    height: 400px;
+    transition: all 0.5s ease-in;
+
+}
+
+input {
+    width: 97%;
+    background-color: transparent;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+
+
+
+}
+
+p {
+    color: rgba(255, 0, 0, 0.651);
+}
+
+.btn-w {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    margin-top: 20px;
+    box-shadow:
+        1px 1px 0 #999,
+        2px 2px 0 #888,
+        3px 3px 0 #777,
+        4px 4px 0 #666,
+        5px 5px 0 #555,
+        6px 6px 0 #444,
+        7px 7px 0 #333,
+        8px 8px 8px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.685), rgba(0, 0, 0, 0.603)), url("header-image.png");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form:hover {
+
+    transform: scale(1.05);
+}
+
